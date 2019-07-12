@@ -51,6 +51,8 @@ a {
   padding: 0 1em;
 }
 
+
+
 header img {
   max-width: 27%;
 }
@@ -106,6 +108,10 @@ p {
   padding-bottom: 20px;
 }
 
+nav a:hover {
+  color: #65e2d9;
+}
+
 .btnBlue {
   display: block;
   text-decoration: none;
@@ -121,9 +127,14 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: .9rem;
   margin-bottom: 60px;
+  -webkit-animation-duration: 1s;
 }
 
-
+.btnBlue:hover {
+  background: rgba(0,0,0,0);
+	color: #65e2d9;
+	box-shadow: inset 0 0 0 3px ;
+}
 
 /*End About */
 
@@ -393,6 +404,12 @@ form {
   flex-basis: 200px;
 }
 
+.start_btn:hover {
+  background: rgba(0,0,0,0);
+	color: #65e2d9;
+	box-shadow: inset 0 0 0 3px ;
+}
+
 .early_text h2 {
   padding-bottom: 20px;
 }
@@ -500,13 +517,28 @@ footer a {
   padding: 10px;
 }
 
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
 .fa-instagram {
   padding: 10px;
+}
+
+.fa-instagram:hover {
+  color: #3f729b;
 }
 
 .fa-twitter {
   padding: 10px;
 }
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+
+
 /*End Footer */
 
 
